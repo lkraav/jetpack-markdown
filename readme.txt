@@ -21,8 +21,6 @@ From the Plugins page, Activate the Jetpack Markdown. Once it is activated, Mark
 
 To enable Markdown for comments, go to **Settings → Discussion** in your dashboard, and check the box labeled Use Markdown for comments. Click on **Save Changes** at the bottom of the page to apply. Visitors to your blog will now be able to compose comments using Markdown.
 
-![Enabling Markdown](http://en.support.files.wordpress.com/2013/08/markdown-for-comments.png?w=700&h=252 "Enabling Markdown")
-
 When writing with Markdown, make sure you always use the Text editor and not the Visual editor. Using the Visual editor may cause unexpected results with Markdown.
 
 = Writing with Markdown =
@@ -31,10 +29,8 @@ Markdown makes use of special characters and punctuation marks to indicate style
 
 For example, in Markdown, to emphasize a word, you wrap it with an asterisk on both ends, like this: \*emphasized*. When your writing is published, it will instead look like this: *emphasized*. Similarly, two asterisks denote strong text: \**strong** will be published as **strong**.
 
-To indicate links, use regular and square parentheses. Wrap the text you want to link in square parentheses, and immediately after it, insert the link target, wrapped in regular parentheses. The actual Markdown could look like this: \[Jetpack Markdown](?). When published, it will be a standard link: [Jetpack Markdown](?).
+To indicate links, use regular and square parentheses. Wrap the text you want to link in square parentheses, and immediately after it, insert the link target, wrapped in regular parentheses. The actual Markdown could look like this: \[Jetpack Markdown](http://wordpress.org/plugins/jetpack-markdown/). When published, it will be a standard link: [Jetpack Markdown](http://wordpress.org/plugins/jetpack-markdown/).
 
-![Writing with Markdown](http://en.support.files.wordpress.com/2013/08/writing-with-markdown.png?w=700 "Writing with Markdown")
-On the left: using Markdown to compose a post in the fullscreen editor. On the right: The published post.
 
 The original Markdown text you write will always remain in Markdown, this way you can go back and edit it using Markdown. Only the published document – the post or the page – will be converted. If you write a post in Markdown, it will be published as a fully formatted post on your blog, but when you go back and edit, it’ll still be in Markdown.
 
