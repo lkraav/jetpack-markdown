@@ -2,8 +2,8 @@
 Contributors: ahspw
 Tags: jetpack, markdown, posts, post, comments
 Requires at least: 3.5
-Tested up to: 3.8.1
-Stable tag: 2.9
+Tested up to: 3.8.2
+Stable tag: 2.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -95,6 +95,10 @@ The good news is that the module can be translated easily.
 2. On the left: using Markdown to compose a post in the fullscreen editor; On the right: The published post
 
 == Changelog ==
+
+= 2.9.3 =
+
+* Update to 2.9.3
 
 = 2.9 =
 

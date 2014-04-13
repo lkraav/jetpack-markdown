@@ -220,9 +220,9 @@ class WPCom_Markdown {
 	 * @return null
 	 */
 	public function register_setting() {
-		add_settings_field( self::POST_OPTION, __( 'Markdown', 'jetpack-markdown' ), array( $this, 'post_field' ), 'writing' ); // E-1
+		add_settings_field( self::POST_OPTION, __( 'Markdown', 'jetpack-markdown' ), array( $this, 'post_field' ), 'writing' );
 		register_setting( 'writing', self::POST_OPTION, array( $this, 'sanitize_setting') );
-		add_settings_field( self::COMMENT_OPTION, __( 'Markdown', 'jetpack-markdown' ), array( $this, 'comment_field' ), 'discussion' ); // E-1
+		add_settings_field( self::COMMENT_OPTION, __( 'Markdown', 'jetpack-markdown' ), array( $this, 'comment_field' ), 'discussion' );
 		register_setting( 'discussion', self::COMMENT_OPTION, array( $this, 'sanitize_setting') );
 	}
 
@@ -245,8 +245,8 @@ class WPCom_Markdown {
 			self::POST_OPTION,
 			self::POST_OPTION,
 			checked( $this->is_posting_enabled(), true, false ),
-			esc_html__( 'Use Markdown for posts and pages.', 'jetpack-markdown' ), // E-1
-			sprintf( '<a href="%s">%s</a>', esc_url( $this->get_support_url() ), esc_html__( 'Learn more about Markdown.', 'jetpack-markdown' ) ) // E-1
+			esc_html__( 'Use Markdown for posts and pages.', 'jetpack-markdown' ),
+			sprintf( '<a href="%s">%s</a>', esc_url( $this->get_support_url() ), esc_html__( 'Learn more about Markdown.', 'jetpack-markdown' ) )
 		);
 	}
 
@@ -260,8 +260,8 @@ class WPCom_Markdown {
 			self::COMMENT_OPTION,
 			self::COMMENT_OPTION,
 			checked( $this->is_commenting_enabled(), true, false ),
-			esc_html__( 'Use Markdown for comments.', 'jetpack-markdown' ), // E-1
-			sprintf( '<a href="%s">%s</a>', esc_url( $this->get_support_url() ), esc_html__( 'Learn more about Markdown.', 'jetpack-markdown' ) ) // E-1
+			esc_html__( 'Use Markdown for comments.', 'jetpack-markdown' ),
+			sprintf( '<a href="%s">%s</a>', esc_url( $this->get_support_url() ), esc_html__( 'Learn more about Markdown.', 'jetpack-markdown' ) )
 		);
 	}
 
@@ -525,7 +525,7 @@ class WPCom_Markdown {
 	 * @return array          Modified array to include post_content_filtered
 	 */
 	public function _wp_post_revision_fields( $fields ) {
-		$fields['post_content_filtered'] = __( 'Markdown content', 'jetpack-markdown' ); // E-1
+		$fields['post_content_filtered'] = __( 'Markdown content', 'jetpack-markdown' );
 		return $fields;
 	}
 

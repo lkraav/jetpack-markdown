@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-markdown/
  * Description: Write in Markdown, publish in HTML.
  * Author: Anas H. Sulaiman
- * Version: 2.9
+ * Version: 2.9.3
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-markdown
  * Domain Path: /languages/
@@ -23,7 +23,7 @@
  * Module Tags: Writing
  */
 
-include_once dirname( __FILE__ ) . '/require-lib.php'; // E-1
+include_once dirname( __FILE__ ) . '/require-lib.php'; 
 include dirname( __FILE__ ) . '/markdown/easy-markdown.php';
 
 // If the module is active, let's make this active for posting, period.
