@@ -2,7 +2,7 @@
 Contributors: ahspw
 Tags: jetpack, markdown, posts, post, comments
 Requires at least: 3.5
-Tested up to: 3.8.2
+Tested up to: 3.9
 Stable tag: 2.9.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -73,7 +73,7 @@ Things you'd be happy to know:
 * The module was carefully extracted from the package. That means there is no missing feature or some irrelevant code.
 * The module does not require a connection to a WordPress.com account.
 
-Note: Translations was not included, due to the fact that Jetpack uses one transaltion file for all the modules, which makes it really difficult to extract translations.
+Note: Translations were not included, due to the fact that Jetpack uses one transaltion file for all the modules, which makes it really difficult to extract translations.
 The good news is that the module can be translated easily.
 
 = You may also like =
