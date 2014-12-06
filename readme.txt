@@ -13,7 +13,7 @@ Write in Markdown, publish in HTML.
 
 Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](http://wordpress.org/plugins/jetpack/).
 
-[Download Translations](https://downloads.wordpress.org/plugin/jetpack-markdown.zip).
+[Download Translations](https://downloads.wordpress.org/plugin/jetpack-markdown.zip). 
 
 = JP Family =
 
