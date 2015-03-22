@@ -2,8 +2,8 @@
 Contributors: wpjp
 Tags: jetpack, markdown, posts, post, comments
 Requires at least: 3.5
-Tested up to: 4.0.1
-Stable tag: 3.2.1
+Tested up to: 4.1.1
+Stable tag: 3.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,10 @@ Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](h
 * [JP Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 
 == Changelog ==
+
+= 3.4.1 =
+
+* Bug Fix: Re-run KSES after processing to account for syntax changes.
 
 = 3.2.1 =
 
