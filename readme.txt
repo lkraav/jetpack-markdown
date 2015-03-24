@@ -11,6 +11,12 @@ Write in Markdown, publish in HTML.
 
 == Description ==
 
+>>**Retiring on June 2015**
+
+>>JP plugins will not be maintained after the end of June 2015.
+>>Thanks for everyone who used these plugins.
+>>Speical thanks for those who gave good ratings.
+
 Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](http://wordpress.org/plugins/jetpack/).
 
 *No support* will be provided unless the issue cannot be reproduced using the original [Jetpack](http://wordpress.org/plugins/jetpack/) module.
