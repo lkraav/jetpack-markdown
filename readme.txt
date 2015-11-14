@@ -1,9 +1,9 @@
 === JP Markdown ===
 Contributors: wpjp
-Tags: jetpack, markdown, posts, post, comments
+Tags: jetpack, markdown, posts, post, comments, md
 Requires at least: 3.5
-Tested up to: 4.2.2
-Stable tag: 3.6
+Tested up to: 4.3.1
+Stable tag: 3.8.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,6 +31,10 @@ Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](h
 * [JP Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 
 == Changelog ==
+
+= 3.8 =
+
+* Update to 3.8
 
 = 3.6 =
 
