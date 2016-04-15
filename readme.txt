@@ -2,8 +2,8 @@
 Contributors: wpjp
 Tags: jetpack, markdown, posts, post, comments, md
 Requires at least: 3.5
-Tested up to: 4.3.1
-Stable tag: 3.8.0
+Tested up to: 4.5
+Stable tag: 3.9.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,17 +11,17 @@ Write in Markdown, publish in HTML.
 
 == Description ==
 
->**Retired on June 2015**
+Just the [Markdown](http://jetpack.me/support/markdown/) module from [Jetpack](http://wordpress.org/plugins/jetpack/).
 
->JP plugins are no logner frequently maintained since the end of June 2015.
->Thanks for everyone who used these plugins.
->Speical thanks for those who gave good ratings.
+All credits go to [Jetpack developers](https://jetpack.com/about/). Just saved you the trouble of taking [Markdown](http://jetpack.me/support/markdown/) module out of Jetpack and making it into an independent plugin.
 
-Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](http://wordpress.org/plugins/jetpack/).
+= But.. Why? =
 
-*No support* will be provided unless the issue cannot be reproduced using the original [Jetpack](http://wordpress.org/plugins/jetpack/) module.
+* Why not?
+* Privacy?
+* Boilerplate?
 
-= JP Family =
+= Similar Plugins =
 
 * [JP Sharing](http://wordpress.org/plugins/jetpack-sharing/) - Share content with Facebook, Twitter, and many more.
 * [JP Widget Visibility](http://wordpress.org/plugins/jetpack-widget-visibility/) - Control what pages your widgets appear on.
@@ -32,17 +32,23 @@ Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](h
 
 == Changelog ==
 
+= 3.9.6 =
+
+* Enhancement: Removed deprecated markup from the output.
+* Enhancement: Added a filter to enable skipping processing of developer supplied patterns.
+* Bug Fix: Fixed a bug that would strip markdown when saving in "Quick Edit" mode.
+
 = 3.8 =
 
-* Update to 3.8
+* Update to Jetpack 3.8
 
 = 3.6 =
 
-* Update to 3.6
+* Update to Jetpack 3.6
 
 = 3.5.3 = 
 
-* Update to 3.5.3
+* Update to Jetpack 3.5.3
 
 = 3.4.1 =
 
@@ -50,15 +56,15 @@ Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](h
 
 = 3.2.1 =
 
-* Update to 3.2.1
+* Update to Jetpack 3.2.1
 
 = 3.2 =
 
-* Update to 3.2
+* Update to Jetpack 3.2
 
 = 3.1 =
 
-* Update to 3.1
+* Update to Jetpack 3.1
 * Change plugin name to "JP Markdown" in response to Jetpack team request.
 
 = 3.0.1 =
@@ -67,16 +73,10 @@ Just the [Markdown module](http://jetpack.me/support/markdown/) from [Jetpack](h
 
 = 2.9.3 =
 
-* Update to 2.9.3
+* Update to Jetpack 2.9.3
 
 = 2.9 =
 
 * Initial release
 
 == Upgrade Notice ==
-
-= 3.2 =
-Nothing important!
-
-= 3.1 =
-Nothing important!
